@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TableOrderActivity"
+    android:background="@drawable/lemon_pie_5"
+    >
+
+    <EditText
+        android:id="@+id/table_no"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_alignLeft="@+id/button1">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tableno"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/btn_dessert_round"
+        android:onClick="proceed"
+        android:text="@string/proceed"
+        android:textSize="14sp" />
+
+</RelativeLayout>

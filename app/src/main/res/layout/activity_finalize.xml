@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".FinalizeActivity"
+    android:background="@drawable/order_back"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order is :"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:layout_marginTop="110dp"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/order_final"
+        android:layout_alignLeft="@+id/order_final" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/tv"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/btn_rnd_finalize"
+        android:onClick="mainmenu"
+        android:text="Main Menu"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="107dp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignEnd="@+id/order_final"
+        android:layout_alignRight="@+id/order_final"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-64dp"
+        android:layout_marginRight="-64dp"
+        android:background="@drawable/btn_rnd_finalize"
+        android:onClick="send_order"
+        android:text="send order"
+        tools:ignore="UnknownId"
+        />
+</RelativeLayout>

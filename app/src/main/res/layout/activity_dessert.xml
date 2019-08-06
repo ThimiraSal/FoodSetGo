@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dessert"
+    android:padding="16dp"
+    tools:context=".DessertActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/dessert"
+        android:textSize="@dimen/textsizetopic"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/SCROLLHEIGHT"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/padding2"
+                    android:text="@string/chocolateice"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textsize2"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/height"
+                        android:background="#1ABB38"
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/textsize3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/choco_ice_cream_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#B92D20"
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/vanillaice"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#1ABB38"
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vannila_ice_cream_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#B92D20"
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/strawberryice"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#1ABB38"
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Strawberry_ice_cream_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#B92D20"
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/faluda"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#1ABB38"
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/falooda_order"
+                        android:layout_width="@dimen/width2"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text" />
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#B92D20"
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:onClick="proceed"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/btnstart"
+        android:layout_marginLeft="@dimen/btnleft"
+        android:layout_marginTop="@dimen/btntop"
+        android:layout_marginBottom="@dimen/btnbottom"
+        android:text="@string/proceed"
+        android:background="@drawable/btn_dessert_round"/>
+
+    <Button
+        android:onClick="main_menu"
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/HEIGHT"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/MARGINSTART"
+        android:layout_marginLeft="@dimen/MARGINSTART"
+        android:layout_marginTop="@dimen/MARGINTOP"
+        android:layout_marginBottom="@dimen/MARGINBUTTON"
+        android:text="@string/main_menu"
+        android:background="@drawable/btn_dessert_round"/>
+
+
+
+</RelativeLayout>

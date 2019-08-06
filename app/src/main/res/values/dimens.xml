@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnstart">63dp</dimen>
+    <dimen name="btnleft">63dp</dimen>
+    <dimen name="btntop">509dp</dimen>
+    <dimen name="btnbottom">149dp</dimen>
+    <dimen name="MARGINSTART">251dp</dimen>
+    <dimen name="MARGINTOP">527dp</dimen>
+    <dimen name="MARGINBUTTON">123dp</dimen>
+    <dimen name="textsizetopic">35dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="padding2">10dp</dimen>
+    <dimen name="textsize2">14sp</dimen>
+    <dimen name="textsize3">25sp</dimen>
+    <dimen name="width">40dp</dimen>
+    <dimen name="height">30dp</dimen>
+    <dimen name="width2">34dp</dimen>
+    <dimen name="padding_">3dp</dimen>
+    <dimen name="text">25sp</dimen>
+    <dimen name="height_">57dp</dimen>
+    <dimen name="HEIGHT">65dp</dimen>
+    <dimen name="SCROLLHEIGHT">275dp</dimen>
+</resources>

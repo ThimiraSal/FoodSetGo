@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FoodSetGo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_virtual_waitress">VirtualWaitress</string>
+    <string name="title_activity_finalize_order">finalize_order</string>
+    <string name="title_activity_thankyou">thankyou</string>
+    <string name="chknpzza">chicken pizza</string>
+    <string name="cburger">chicken burger</string>
+    <string name="cfriedrice">chicken fried rice</string>
+    <string name="cbriyani">chicken biriyani</string>
+    <string name="mbiriyani">mutton biriyani</string>
+    <string name="chocolateice">chocolate ice cream</string>
+    <string name="vanillaice">vanilla ice cream</string>
+    <string name="strawberryice">strawberry ice cream</string>
+    <string name="faluda">faluda</string>
+    <string name="vegfried">vegetable fried rice</string>
+    <string name="vegriceandcurry">vegetable rice and curry</string>
+    <string name="vegnoodles">vegetable noodles</string>
+    <string name="vegchopsuey">vegetable chopsuey</string>
+    <string name="tableno">Please enter your table number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email address</string>
+    <string name="address">Address</string>
+    <string name="_94">+94</string>
+    <string name="phone_number">Phone number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="BACK">BACK</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="proceed">PROCEED</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="desserts">Desserts</string>
+    <string name="dessert">DESSERT</string>
+</resources>
